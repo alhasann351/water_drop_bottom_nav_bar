@@ -12,12 +12,13 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
+        backgroundColor: Theme.of(context).primaryColor,
+        title: const Text(
           'Home',
           style: TextStyle(
             fontSize: 25,
             fontWeight: FontWeight.bold,
-            color: Theme.of(context).primaryColor,
+            color: Colors.white,
           ),
         ),
       ),

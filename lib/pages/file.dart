@@ -12,12 +12,13 @@ class _FileState extends State<File> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
+        backgroundColor: Theme.of(context).primaryColor,
+        title: const Text(
           'File',
           style: TextStyle(
             fontSize: 25,
             fontWeight: FontWeight.bold,
-            color: Theme.of(context).primaryColor,
+            color: Colors.white,
           ),
         ),
       ),
